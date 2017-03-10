@@ -1,5 +1,4 @@
 import csv
-
 import django
 from agro_db.csr.models import Farmer, CropInformation, ProfileAddress
 from agro_db.order_management.models import Order
@@ -115,7 +114,10 @@ def gather_information():
                 last_active = last_active.days
             else:
                 last_active = None
+                continue
             row.append(last_active)
+        else:
+            continue
 
             rows.append(row)
 

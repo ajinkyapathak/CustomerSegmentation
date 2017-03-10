@@ -1,9 +1,14 @@
-mydata <- read.csv("Projects/FinalYearProject/dataset/dataset.csv", header = TRUE)
-mydata <- na.omit(mydata) # listwise deletion of missing
-mydata <- scale(mydata) # standardize variables
+mydata <- read.csv("~/Projects/FinalYearProject/dataset/dataset.csv", header = T)
 
-total_orders <- mydata$Total.Orders
-result <- kmeans(total_orders,4)
-result$size
-result$cluster
-dunn_score <- dunn.test(result$cluster, method = "bonferroni")
+head(mydata)
+data <- mydata[,18:22]
+
+write.csv(data, "modified_dataset.csv")
+pc <- princomp(data ,cor = TRUE ,scores = TRUE)
+summary(pc)
+pc$loadings
+data_with_all_components = pc$scores
+new_data = data_with_all_components[,1:4]
+result = kmeans(new_data, centers = 4)
+tmp <- cbind(data, result$cluster)
+write.csv(tmp, "dataset_with_cluters.csv")
