@@ -13,6 +13,8 @@ def gather_information():
                                                'language', 'birth_date', 'app_enabled', 'mobile_1',
                                                'creation_source', 'irrigation_type',
                                                'irrigation_source')[300000:]
+
+    order = Order.objects.filter(Q(unicommerce_status="RETURNED") | Q(status="RETURNED"))
     rows = [[
         'Farmer Id',
         'First Name',
@@ -122,6 +124,7 @@ def gather_information():
             rows.append(row)
 
     write_to_csv(rows)
+
 
 def write_to_csv(rows):
     f = open('/tmp/dataset.csv','wb')

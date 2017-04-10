@@ -1,0 +1,25 @@
+   Farmer.Id         Village                  Taluka              District                 State       
+ Min.   :   544          :154590                 : 89152              : 82558   Gujarat       :284982  
+ 1st Qu.:165081   --     :  9519   Tharad        : 12504   Banaskantha: 51915   Maharashtra   :172568  
+ Median :327854   -      :  6900   Ahmedabad City:  8269   Ahmedabad  : 24425                 : 85765  
+ Mean   :332863   Barmer :  6244   Barmer        :  8166   Junagadh   : 21349   Rajasthan     : 83722  
+ 3rd Qu.:501566   ---    :  5477   Vav           :  6905   Rajkot     : 20993   Others        :  3275  
+ Max.   :675724   (Other):452538   (Other)       :502851   Sabarkantha: 20311   Madhya Pradesh:  2105  
+                  NA's   :    10   NA's          :  7431   (Other)    :413727   (Other)       :  2861  
+
+        Crop             Area         App.Customer       Orders.Count      Net.Orders.Count     Net.Revenue       
+          :419939   Min.   :  0.5    Min.   :0.000000   Min.   :   0.000   Min.   :   0.0000   Min.   :      0.0  
+ Castor   :169989   1st Qu.:  5.0    1st Qu.:0.000000   1st Qu.:   0.000   1st Qu.:   0.0000   1st Qu.:      0.0  
+ Wheat    :  6519   Median : 10.0    Median :0.000000   Median :   0.000   Median :   0.0000   Median :      0.0  
+ Cotton   :  6121   Mean   : 18.8    Mean   :0.001547   Mean   :   0.694   Mean   :   0.5411   Mean   :    847.5  
+ Sugarcane:  2715   3rd Qu.: 20.0    3rd Qu.:0.000000   3rd Qu.:   1.000   3rd Qu.:   0.0000   3rd Qu.:      0.0  
+ (Other)  : 29987   Max.   :800.0    Max.   :1.000000   Max.   :1557.000   Max.   :1555.0000   Max.   :2634824.0  
+ NA's     :     8   NA's   :630709   
+                                                                             
+ Return.Percentage Days.Since.Last.Bought    Segment     
+ Min.   :  0.000   Min.   :   2           Min.   :1.000  
+ 1st Qu.:  0.000   1st Qu.: 551           1st Qu.:4.000  
+ Median :  0.000   Median :1500           Median :4.000  
+ Mean   :  7.714   Mean   :1142           Mean   :3.824  
+ 3rd Qu.:  0.000   3rd Qu.:1500           3rd Qu.:4.000  
+ Max.   :100.000   Max.   :1500           Max.   :4.000  

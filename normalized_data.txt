@@ -1,0 +1,14 @@
+  App.Customer       Orders.Count       Net.Orders.Count     Net.Revenue        Return.Percentage
+ Min.   :0.000000   Min.   :0.0000000   Min.   :0.0000000   Min.   :0.0000000   Min.   :0.00000  
+ 1st Qu.:0.000000   1st Qu.:0.0000000   1st Qu.:0.0000000   1st Qu.:0.0000000   1st Qu.:0.00000  
+ Median :0.000000   Median :0.0000000   Median :0.0000000   Median :0.0000000   Median :0.00000  
+ Mean   :0.001547   Mean   :0.0004457   Mean   :0.0003479   Mean   :0.0003217   Mean   :0.07714  
+ 3rd Qu.:0.000000   3rd Qu.:0.0006423   3rd Qu.:0.0000000   3rd Qu.:0.0000000   3rd Qu.:0.00000  
+ Max.   :1.000000   Max.   :1.0000000   Max.   :1.0000000   Max.   :1.0000000   Max.   :1.00000  
+ Days.Since.Last.Bought
+ Min.   :0.0000        
+ 1st Qu.:0.3665        
+ Median :1.0000        
+ Mean   :0.7609        
+ 3rd Qu.:1.0000        
+ Max.   :1.0000        
